@@ -1,0 +1,11 @@
+.Title {
+  text-align: center;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 50pt;
+}
+
+.content {
+  font-size: 15pt;
+  font-style:italic;
+}

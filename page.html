@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang = "en-GB">
+<head>
+	<meta charset = "utf-8">
+	<title>File Sharing System</title>
+	<link href = "CSS/style.css" rel = "stylesheet">
+</head>
+<body>
+	<header class = "DeletPage">
+		<p class = "Title">File Sharing System</p>
+		</header>
+		<hr />
+
+	<main>
+		<form name = "input" action = "show.php" method = "post" target = "_blank">
+			 <p class = "content">Show All Your Files:<input class = "button" type = "submit" name = "show" value = "show" /></p>
+		</form>
+		<hr />
+
+		<form name = "input" action = "open.php" method = "post" target = "_blank">
+			 <p class = "content">Typing Open Filename: <input class = "text" type="text" name="openfile"/>
+				 <input class = "button" type = "submit" name = "open" value = "open" /></p>
+		</form>
+		<hr />
+
+    <form name = "input" action = "upload.html" method = "post" target = "_blank">
+       <p class = "content">Upload Files:<input class = "button" type = "submit" name = "upload" value = "upload" /></p>
+    </form>
+		<hr />
+
+		<form name = "input" action = "delete.php" method = "post" target = "_blank">
+			 <p class = "content">Typing Delete Files:<input class = "text" type="text" name="deletefile"/>
+				 <input class = "button" type = "submit" name = "delete" value = "delete" />
+		 </p>
+		</form>
+		<hr />
+
+		<form name = "input" action = "copy.php" method = "post" target = "_blank">
+			 <p class = "content">copy file to:<input class = "text" type="text" name="user"/></p>
+			 <p class = "content">copy filename:<input class = "text" type="text" name="file"/></p>
+			 <p class = "content"><input class = "button" type = "submit" name = "copy" value = "copy" /></p>
+		</form>
+		<hr />
+
+		<form name="add" action ="newuser.php" method="post" target = "_blank">
+		 <p class = "content">Typing the New Username: <input class = "text" type="text" name="newuser"/>
+			 <input class = "button" type ="submit" name = "add" value="add"/>
+		 </p>
+		</form>
+		 <hr />
+
+		<form name = "input" action = "logout.php" method = "post" target = "_blank">
+			 <p class = "content">Log Out<input class = "button" type = "submit" name = "logout" value = "logout" /></p>
+		</form>
+  </main>
+</body>
+</html>
